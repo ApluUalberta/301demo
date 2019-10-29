@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/DateError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/DateText"
+        android:layout_width="match_parent"
+        android:layout_height="156dp"
+        android:ems="10"
+        android:hint="Date (yyyy-mm-dd)"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/TimeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Time (hh:mm)"
+        android:inputType="time" />
+
+    <EditText
+        android:id="@+id/distancetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Distance (Km)"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/averagespeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Speed (Km/hr)"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/average_cadence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Cadence (Rev/min)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/note"
+        android:layout_width="match_parent"
+        android:layout_height="139dp"
+        android:hint="Note (Limit 20 Characters)" />
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:textSize="30sp"
+        android:visibility="invisible" />
+
+</LinearLayout>
